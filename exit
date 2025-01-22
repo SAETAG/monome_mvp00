@@ -1,0 +1,18 @@
+[90m= [39m[34;4mIlluminate\Database\Eloquent\Collection[39;24m {#5235
+    [34mall[39m: [
+      [34;4mApp\Models\Item[39;24m {#5282
+        [34mitem_id[39m: [35m1[39m,
+        [34muser_id[39m: [35m1[39m,
+        [34mitem_name[39m: "[32mFavorite Book[39m",
+        [34mcategory[39m: "[32mBooks[39m",
+        [34mpurchase_day[39m: "[32m2020-05-01[39m",
+        [34mpurchase_place[39m: "[32mAmazon[39m",
+        [34mpurchase_price[39m: "[32m1500.00[39m",
+        [34mmemory[39m: "[32mThis was my favorite novel.[39m",
+        [34mheart_level[39m: "[32m5[39m",
+        [34mcreated_at[39m: "[32m2025-01-21 23:34:19[39m",
+        [34mupdated_at[39m: "[32m2025-01-21 23:34:19[39m",
+      },
+    ],
+  }
+
