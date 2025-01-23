@@ -1,6 +1,7 @@
 /* DeclutterList.css */
 h2 {
-    color: #34c38f;
+    color: #6b8e58;
+    /* 深いグリーン */
     margin-bottom: 10px;
 }
 
@@ -10,10 +11,14 @@ ul {
 }
 
 li {
-    background-color: #ffe9d9;
-    /* パステルオレンジ */
+    background-color: #eaf9e1;
+    /* 明るいパステルグリーン */
     margin: 5px 0;
     padding: 10px;
-    border: 1px solid #ffad60;
+    border: 1px solid #a4c3a2;
     border-radius: 5px;
+}
+
+p {
+    color: #6b8e58;
 }

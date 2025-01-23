@@ -36,7 +36,7 @@ const DeclutterList = ({ refreshSignal }) => {
                 <ul>
                     {items.map((item) => (
                         <li key={item.item_id}>
-                            {item.item_name} - {item.category}
+                            {item.item_id} - {item.item_name} - {item.category}
                         </li>
                     ))}
                 </ul>
