@@ -1,0 +1,35 @@
+# Laravel関連
+/vendor
+/storage/*.key
+/public/storage
+/public/build
+/public/hot
+
+# Node.js関連
+/node_modules
+/npm-debug.log
+/yarn-error.log
+
+# 環境変数
+.env
+.env.backup
+.env.production
+
+# キャッシュやログ
+.phpunit.cache
+.phpunit.result.cache
+Homestead.json
+Homestead.yaml
+.phpactor.json
+/auth.json
+
+# IDE・エディタ関連
+/.fleet
+/.idea
+/.nova
+/.vscode
+/.zed
+
+# その他不要なファイル
+.DS_Store
+.git
