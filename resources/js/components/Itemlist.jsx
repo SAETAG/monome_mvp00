@@ -2,6 +2,8 @@ import React, { useState, useEffect } from "react";
 import axios from "axios";
 import NewItemForm from "./NewItemForm";
 import EditItemForm from "./EditItemForm";
+import "../../css/ItemList.css"; // ItemList用のCSS
+
 
 const ItemList = () => {
     const [items, setItems] = useState([]); // アイテム一覧
@@ -85,7 +87,7 @@ const ItemList = () => {
             <ul>
                 {items.map((item) => (
                     <li key={item.item_id}>
-                        {item.item_name} - {item.category}
+                        {item.item_name} - {item.category} - {item.purchase_day} - {item.purchase_place} - {item.purchase_price}JPY - {item.memory} - {item.heart_level}
                         <button onClick={() => handleEditClick(item)}>編集</button>
                         <button onClick={() => handleDelete(item.item_id)}>削除</button>
                     </li>

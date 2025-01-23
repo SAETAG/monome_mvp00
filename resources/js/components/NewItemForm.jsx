@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import axios from "axios";
+import "../../css/NewItemForm.css"; // NewItemForm用のCSS
 
 const NewItemForm = ({ onItemAdded }) => {
     const [formData, setFormData] = useState({

@@ -1,0 +1,35 @@
+/* ItemList.css */
+h2 {
+    color: #34c38f;
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background-color: #eaf9f4;
+    /* パステルグリーン */
+    margin: 5px 0;
+    padding: 10px;
+    border: 1px solid #34c38f;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    background-color: #ffad60;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-left: 5px;
+}
+
+button:hover {
+    background-color: #ff8a00;
+}

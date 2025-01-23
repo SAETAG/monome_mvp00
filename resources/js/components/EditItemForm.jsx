@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import "../../css/EditItemForm.css"; // NewItemForm用のCSS
 
 const EditItemForm = ({ item, onUpdate, onClose }) => {
     const [itemName, setItemName] = useState(item.item_name);

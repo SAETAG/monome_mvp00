@@ -1,0 +1,36 @@
+/* NewItemForm.css */
+form {
+    background-color: #eaf9f4;
+    padding: 20px;
+    border: 1px solid #34c38f;
+    border-radius: 10px;
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+    color: #34c38f;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #34c38f;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #ffad60;
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+button:hover {
+    background-color: #ff8a00;
+}

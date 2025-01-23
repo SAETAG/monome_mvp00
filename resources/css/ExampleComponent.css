@@ -1,0 +1,13 @@
+/* ExampleComponent.css */
+h1 {
+    color: #34c38f;
+    /* グリーン */
+    font-size: 2rem;
+    text-align: center;
+}
+
+p {
+    color: #ffad60;
+    /* オレンジ */
+    text-align: center;
+}

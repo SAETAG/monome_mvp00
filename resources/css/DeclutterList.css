@@ -1,0 +1,19 @@
+/* DeclutterList.css */
+h2 {
+    color: #34c38f;
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background-color: #ffe9d9;
+    /* パステルオレンジ */
+    margin: 5px 0;
+    padding: 10px;
+    border: 1px solid #ffad60;
+    border-radius: 5px;
+}
