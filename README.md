@@ -1,66 +1,43 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# ①課題番号-プロダクト名
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+Mono:Me
+（モノミー）
 
-## About Laravel
+## ②課題内容（どんな作品か）
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+- 家の中のモノの整理整頓を楽しく支援するアプリ（卒制の機能の一部）。
+- ユーザーは家の中のものを登録可能
+- 登録内容はCRUD可能。
+- お気に入り度が低いモノは自動的に断捨離リストへ追加される。
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+## ③DEMO
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+デプロイしている場合はURLを記入（任意）
 
-## Learning Laravel
+## ④作ったアプリケーション用のIDまたはPasswordがある場合
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+なし
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+## ⑤工夫した点・こだわった点
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+- バックエンドをLaravelで、フロントエンドをReactで作成
+- 「お気に入り度」が２以下のモノは自動的に断捨離リストへ追加される
 
-## Laravel Sponsors
+## ⑥難しかった点・次回トライしたいこと(又は機能)
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+- Laravelで構築したバックエンドをAPIでReactにつなげるのが難しかった
+- Laravelのbreezeにより、バックエンド側では認証機能を簡単に実装できたが、結局React側でうまく動作させられなかった
+- 断捨離リストがitem_idしか表示出来なかった
+　これはバックエンド側でデータベースを設計するとき、断捨離リストのカラムを「user_id」と「item_id」のみにしてしまっていたため。
 
-### Premium Partners
+## ⑦質問・疑問・感想、シェアしたいこと等なんでも
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[WebReinvent](https://webreinvent.com/)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Jump24](https://jump24.co.uk)**
-- **[Redberry](https://redberry.international/laravel/)**
-- **[Active Logic](https://activelogic.com)**
-- **[byte5](https://byte5.de)**
-- **[OP.GG](https://op.gg)**
-
-## Contributing
-
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
-
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+- [感想]
+  EXP講座で習ったReactを使いたくてバックエンドとフロントを分けてみたけれど、繋げるのが本当に難しかった。
+- [参考記事]
+  - 1. 【Laravel】コントローラーとは？作成や編集方法を実例で解説。[https://qiita.com/shizen-shin/items/2ddb0748cdca1867440c]
+  - 2. Laravel 環境別にCORS設定を行う方法[https://hikoniki.com/2024/07/24/laravel-%E7%92%B0%E5%A2%83%E5%88%A5%E3%81%ABcors%E8%A8%AD%E5%AE%9A%E3%82%92%E8%A1%8C%E3%81%86%E6%96%B9%E6%B3%95/
+  ]
+　- 3. Laravel 11 で api.phpが消えた！？[https://tobilog.net/10949/#toc3]
+　- 4. ポストマン（APIが正常に動作しているか確認できるアプリ） [https://www.postman.com/]
+　- 5.【React.js / Laravel(PHP)】Todoアプリ作ってみた！総集編 [https://www.youtube.com/watch?v=QsCT42rEgwY&list=PLoAXfAOMhqwefd1D8jZ6qWVLOHFUze-_r&index=4]
