@@ -15,8 +15,8 @@ RUN apt-get update && apt-get install -y \
 # Composerをインストール
 COPY --from=composer:latest /usr/bin/composer /usr/bin/composer
 
-# Node.jsをインストール（Reactビルド用）
-RUN curl -fsSL https://deb.nodesource.com/setup_16.x | bash - && \
+# Node.jsをインストール（バージョン18以上）
+RUN curl -fsSL https://deb.nodesource.com/setup_18.x | bash - && \
     apt-get install -y nodejs
 
 # 作業ディレクトリを設定
