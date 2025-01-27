@@ -13,7 +13,7 @@ Mono:Me
 ## ③DEMO
 
 動作動画（ローカル環境）
-https://github.com/user-attachments/assets/4f42d698-1528-4136-8ec7-827f7887cd92
+https://github.com/SAETAG/monome_mvp00/blob/main/monome_mvp00_demo%20(compressed).mp4
 
 ## ④作ったアプリケーション用のIDまたはPasswordがある場合
 
