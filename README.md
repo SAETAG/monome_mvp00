@@ -12,14 +12,8 @@ Mono:Me
 
 ## ③DEMO
 
-https://monome-mvp00.onrender.com/
-今回、バックエンドをLaravel、フロントエンドをReactで作成したため、
-さくらでデプロイ不可能そうでしたので、「Render.com」というサービスでデプロイしてみました。
-しかし、データベース作成すると有料プランへの登録が必要となり、結局デプロイまで出来ませんでした。
-以下にローカル環境で動作していた動画を貼ります。
+動作動画（ローカル環境）
 https://github.com/user-attachments/assets/4f42d698-1528-4136-8ec7-827f7887cd92
-
-
 
 ## ④作ったアプリケーション用のIDまたはPasswordがある場合
 
